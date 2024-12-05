@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estlos4.css">
+</head>
+<body>
+    <form>
+        <center>  <h1>FORMULARIO</h1></center>
+        
+        <!-- Pregunta 1: Si/No -->
+        <div class="pregunta">
+            <label>1. ¿Participaste en alguno de estos proyectos?</label>
+            <div class="si-no">
+                <center> <input type="radio" id="si" name="pregunta1" value="si">
+                <label for="si">Sí</label>
+                <input type="radio" id="no" name="pregunta1" value="no">
+                <label for="no">No</label></center>
+            </div>
+        </div>
+        
+        <!-- Pregunta 2:imagenes -->
+        <div class="pregunta">
+            <label>2.¿Que tal tu experiencia?</label>
+            <div class="botones-imagenes">
+                <center><input type="radio" id="opcion1" name="pregunta2" value="opcion1">
+                <label for="opcion1">
+                    <img src="bien.jpg.png.jpg" alt="Imagen 1">
+                </label>
+                <input type="radio" id="opcion2" name="pregunta2" value="opcion2">
+                <label for="opcion2">
+                    <img src="medio.jpg.png.jpg" alt="Imagen 2">
+                </label>
+                <input type="radio" id="opcion3" name="pregunta2" value="opcion3">
+                <label for="opcion3">
+                    <img src="mal.jpg.png.jpg" alt="Imagen 3"></center>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Pregunta 3: Texto libre -->
+        <div class="pregunta">
+            <label>3.¿Que nos recomiendas para mejorar la pagina?</label>
+            <textarea name="pregunta3" rows="5" cols="50"></textarea>
+        </div>
+
+        <!-- Botón enviar -->
+<center><button type="submit">Enviar</button></center>
+ </form>
+ 
+    <script src="script.js"></script>
+</body>
+</html>

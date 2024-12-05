@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #081627, #9DB7C3);
+ }
+ 
+   
+   @keyframes fadeIn {
+     from {
+       opacity: 0;
+       transform: scale(3);
+       color:#919BAA
+     }
+     to {
+       opacity: 1;
+       transform: scale(1);
+       color:#303131
+     }
+   }
+ .elemento{
+  font-family: serif;
+     animation: fadeIn 2s;
+     font-size:35px;
+     transition:all 0.5 ease-in-out;
+ }
+ .contenedor-botones {
+  text-align: center;
+  margin-top: 100px;
+ }
+ .boton-pequeno {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #25344F;
+  color: #fff;
+  cursor: pointer;
+}
+.boton-info {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #25344F;
+  color: #fff;
+  cursor: pointer;
+}
+ 
+ .boton {
+  width: 280px;
+  height: 200px;
+  margin: 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: #091120;
+  box-shadow: 0 0 10px rgb(139, 139, 141);
+  cursor: pointer;
+  transition: all 0.5s ease;
+ }
+ 
+ .boton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+ }
+ 
+ .boton img {
+  width: 80px;
+  height: 80px;
+  margin: 30px;
+ }
+ 
+ .boton span {
+  font-size: 22px;
+  font-family: serif;
+  color: #89c9e4;
+ }
+
+ .botonimg {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #A9C4E9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.botonimg:hover {
+  background-color: #d6e1f0;
+}
+
+.logotipo {
+  width: 70px;
+  height: 70px;
+  margin-right: 35px;
+  vertical-align: middle;
+}
+
+.textoin {
+  font-size: 16px;
+  font-family: serif;
+  vertical-align: middle;
+}

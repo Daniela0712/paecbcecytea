@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #87B4C9, #D0DEE5);
+}
+
+.contenedor {
+  display: flex;
+}
+
+.header-lateral {
+  background-color: #1F2B2D;
+  padding: 10px;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 0 5px rgb(241, 237, 237);
+}
+
+.header-lateral nav ul {
+  list-style: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-lateral nav li {
+  margin-bottom: 80px;
+}
+
+.boton {
+  color: #12B2C1;
+  font-family: serif;
+  text-align: center;
+  padding: 30px 45px;
+  border-radius: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.boton:hover {
+  background-color: #23717B;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #E5F9F8(255, 255, 255);
+}
+.boton-con {
+  background-color: #1F2B2D;
+  color: #06a3d3;
+  font-family: serif;
+  text-align: center;
+  padding: 30px 45px;
+  border-radius: 15px;
+  transition: background-color 0.2s ease;
+}
+
+
+.boton-con:hover {
+  background-color: #848DDB;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.main-contenido {
+  margin-left: 300px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 65px;
+  font-family: serif;
+  color: #B6DFE7;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 10px rgba(82, 81, 81, 0.829);
+}
+
+h2 {
+  font-size: 24px;
+  font-family: serif;
+  color: #121430;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h2:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #C29CE4;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+figure {
+  margin: 8px auto;
+}
+
+figcaption {
+  font-size: 20px;
+  color: #313030;
+  text-align: center;
+}
+
+img {
+  width: 29%;
+  height: auto;
+  border-radius: 19px;
+}
+img {
+  transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+footer {
+  background-color: #025872;
+  color: #54fce0;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin: 0;
+}

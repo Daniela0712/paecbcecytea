@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        /* Estilos para el formulario */
+        form {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Estilos para las preguntas */
+        .pregunta {
+            margin-bottom: 20px;
+        }
+        
+        /* Estilos para la pregunta 1 */
+        .si-no {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        /* Estilos para la pregunta 2 */
+        .botones-imagenes {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .botones-imagenes label {
+            margin-right: 10px;
+        }
+        
+        .botones-imagenes img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        
+        /* Estilos para la pregunta 3 */
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        
+        /* Estilos para el botón enviar */
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <form id="formulario">
+        <h1>Formulario</h1>
+        
+        <!-- Pregunta 1: Si/No -->
+        <div class="pregunta">
+            <label>Pregunta 1: ¿Estás de acuerdo?</label>
+            <div class="si-no">
+                <input type="radio" id="si" name="pregunta1" value="si">
+                <label for="si">Sí</label>
+                <input type="radio" id="no" name="pregunta1" value="no">
+                <label for="no">No</label>
+            </div>
+        </div>
+        
+        <!-- Pregunta 2: Botones con imágenes -->
+        <div class="pregunta">
+            <label>Pregunta 2: Selecciona una opción</label>
+            <div class="botones-imagenes">
+                <input type="radio" id="opcion1" name="pregunta2" value="opcion1">
+                <label for="opcion1">
+                    <img src="imagen1.jpg" alt="Imagen 1">
+                </label>
+                <input type="radio" id="opcion2" name="pregunta2" value="opcion2">
+                <label for="opcion2">
+                    <img src="imagen2.jpg" alt="Imagen 2">
+                </label>
+                <input type="radio" id="opcion3" name="pregunta2" value="opcion3">
+                <label for="opcion3">
+                    <img src="imagen3.jpg" alt="Imagen 3">
+                </label>
+            </div>
+        </div>
+        
+        <!-- Pregunta 3: Texto libre -->
+        <div class="pregunta">
+            <label>Pregunta 3: Describe tus pensamientos</label>
+            <textarea name="pregunta3" rows="5" cols="50"></textarea>
+        </div>
+        
+        <!-- Botón enviar -->
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

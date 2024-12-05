@@ -1,0 +1,66 @@
+body {
+    font-family: serif;
+    font-size:20px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #A3B1CF;
+    color: #ebe3b0;
+    padding: 20px;
+    font-family: serif;
+    text-align: center;
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen1, .imagen2, .imagen3, .imagen4 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.imagen1 p, .imagen2 p, .imagen3 p, .imagen4 p {
+   font-size: 20px;
+   padding: 10px;
+   text-align: center;
+   color: black;
+}
+
+img {
+    width: 47%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.explicacion {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+.boton-info {
+    font-size: 20px;
+    padding: 15px 25px;
+    border:none;
+    border-radius: 5px;
+    background-color: #A3B1CF;
+    font-family: serif;
+    color: #f1f377;
+    cursor: pointer;
+  }
+
+footer {
+    background-color: #A3B1CF;
+    color: #ebe3b0;
+    padding: 10px;
+    font-family: serif;
+    text-align: center;
+    clear: both;
+}
